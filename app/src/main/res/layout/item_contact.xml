@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/contact_image"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:src="@drawable/default_profile_photo"
+            android:padding="17dp"
+            android:clickable="true"
+            />
+        <LinearLayout
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/contactName"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_weight="0.5"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="14dp"
+                android:layout_height="0dp"/>
+            <TextView
+                android:id="@+id/contactNumber"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginBottom="15dp"
+                />
+        </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "875983003782",
+    "firebase_url": "https://wechatclone-a9d88.firebaseio.com",
+    "project_id": "wechatclone-a9d88",
+    "storage_bucket": "wechatclone-a9d88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875983003782:android:82f5bdb81629f8a7777107",
+        "android_client_info": {
+          "package_name": "com.example.wechatclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875983003782-dfvihnq2kdosfhmesnbphgebm6bh4mac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wechatclone",
+            "certificate_hash": "94842a28aae92c4dd3c45a01fd6a3a68fcbb736b"
+          }
+        },
+        {
+          "client_id": "875983003782-j42j7f9hd1gjjivev879jujoccb7iglq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3bggzFGM6rCqaCn85llJEm6KkrztcWBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875983003782-j42j7f9hd1gjjivev879jujoccb7iglq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

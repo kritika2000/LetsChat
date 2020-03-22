@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/RootSignIn"
+tools:context=".SignInActivity">
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/tilPhone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    app:endIconMode="clear_text"
+    app:boxStrokeColor="@android:color/darker_gray"
+    app:hintTextColor="@android:color/darker_gray"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_marginTop="175dp"
+    app:prefixText="+91"
+    >
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/phoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your phone number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:imeOptions="actionNext"
+        />
+</com.google.android.material.textfield.TextInputLayout>
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/SingnInPassword"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    app:boxStrokeColor="@android:color/darker_gray"
+    app:hintTextColor="@android:color/darker_gray"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_below="@+id/tilPhone"
+    android:layout_marginTop="10dp"
+    app:passwordToggleEnabled="true"
+    >
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Signin_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:inputType="text"
+        android:maxLength="12"
+        android:imeOptions="actionDone"
+        />
+</com.google.android.material.textfield.TextInputLayout>
+<com.google.android.material.button.MaterialButton
+    android:id="@+id/LogIn"
+    android:layout_width="100dp"
+    android:layout_height="60dp"
+    android:text="Log In"
+    android:backgroundTint="@color/colorAccent"
+    app:cornerRadius="20dp"
+    android:layout_below="@+id/SingnInPassword"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="20dp"
+    />
+</RelativeLayout>

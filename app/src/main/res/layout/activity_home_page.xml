@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wechatclone.HomePageActivity">
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/createAccount"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:text="Create new profile"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/colorAccent"
+        app:cornerRadius="25dp"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:layout_below="@+id/createAccount"
+        android:id="@+id/LogIn"
+        android:layout_centerInParent="true"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:text="Sign in"
+        android:backgroundTint="@color/colorAccent"
+        app:cornerRadius="25dp"
+        android:layout_marginTop="-2dp"
+        />
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/createAccount"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="70dp"
+        android:fontFamily="@font/allura"
+        android:text="Let's Chat"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="65sp"
+        android:textStyle="bold" />
+</RelativeLayout>
